@@ -1,0 +1,956 @@
+﻿{
+	  "reportSn": "201807120937355930238",
+	  "reportTime": "2018-07-12 09:37:35",
+	  "originalTime": "2018-06-23 01:28:15",
+	  "petitioner": {
+		"name": "王小二",
+		"certNo": "123456789012345678",
+		"mobile": "15912345600",
+		"mobileBelongTo": "广东省深圳市",
+		"mobileMnoType": "中国联通",
+		"gender": "男",
+		"constellation": "金牛",
+		"age": "23",
+		"birthAddress": "四川省达州市渠县",
+		"bak":""
+	  },
+	  "mnoBaseInfo": {
+		"mobile": "15912345600",
+		"monType": "联通",
+		"belongTo": "广东省深圳市",
+		"boundCertNo": "1234****5678",
+		"boundName": "**二",
+		"totalScore": "666",
+		"identityScore": "625",
+		"behaviorPrefScore": "618",
+		"relationshipScore": "630",
+		"stabilityScore": "612",
+		"performanceScore": "699",
+		"custLevel": "五星级用户",
+		"mobileStatus": "正常服务",
+		"packageName": "畅爽全国冰激凌套餐398元档",
+		"availableBalance": "42.57",
+		"passRealName": true,
+		"equalToPetitioner": true
+	  },
+	  "bqsHighRiskList": {
+		"highRiskLists": [
+		  {
+			"riskGrade": "高风险",
+			"riskIdType": "身份证加姓名",
+			"firstType": "信贷行业",
+			"secondType": "P2P黑名单"
+		  },
+		  {
+			"riskGrade": "高风险",
+			"riskIdType": "手机号",
+			"firstType": "法院",
+			"secondType": "法院失信名单"
+		  },
+		  {
+			"riskGrade": "中风险",
+			"riskIdType": "身份证",
+			"firstType": "多头名单",
+			"secondType": "多头申请3个月"
+		  }
+		]
+	  },
+	  "bqsAntiFraudCloud": {
+		"partnerCount":"5",
+		"idcCount":"1",
+		"phoneCount":"1",
+		"starnetCount":""
+	  },
+	  "crossValidation": {
+		"callActiveArea": {
+		  "inspectionItems": "通话主要活动区域",
+		  "result": "广东省深圳市",
+		  "evidence": "在广东省深圳市地区通话265次，占总通话次数的69%"
+		},
+		"contactsActiveArea": {
+		  "inspectionItems": "朋友圈活动区域",
+		  "result": "朋友圈主要活动在广东省深圳市",
+		  "evidence": "广东省深圳市地区通话时间占比为35.23%"
+		},
+		"callMobileBelongMatch": {
+		  "inspectionItems": "通话主要活动区域与本人手机号归属地是否一致",
+		  "result": "是",
+		  "evidence": "本人通话主要活动区域：广东省深圳市, 手机号归属地：广东省深圳市"
+		},
+		"callContactsAreaMatch": {
+		  "inspectionItems": "通话主要活动区域与朋友圈活动区域是否一致",
+		  "result": "是",
+		  "evidence": "本人通话主要活动区域：广东省深圳市, 朋友圈活动区域：广东省深圳市"
+		},
+		"contactsSize": {
+		  "inspectionItems": "朋友圈大小",
+		  "result": "137",
+		  "evidence": "半年内与137个号码有过通话记录"
+		},
+		"exchangeCallMobileCount": {
+		  "inspectionItems": "互通电话号码个数",
+		  "result": "16个",
+		  "evidence": "半年内存在16个互通的电话的号码记录, 占通话总通话号码数的11.68%"
+		},
+		"contactsActiveDegree": {
+		  "inspectionItems": "朋友圈活跃度",
+		  "result": "5",
+		  "evidence": "半年内与5个号码联系过15次以上"
+		},
+		"notCallingDayCount": {
+		  "inspectionItems": "全天未使用主叫功能天数",
+		  "result": "99天",
+		  "evidence": "在2018-01-01~2018-06-18时间段内，该号码有99天全天未使用主叫功能，连续三天以上全天未使用通话和短信功能11次:2018-01-28~2018-02-01,5天 / 2018-02-24~2018-02-28,5天 / 2018-03-12~2018-03-15,4天 / 2018-03-20~2018-03-23,4天 / 2018-04-09~2018-04-12,4天 / 2018-04-17~2018-04-21,5天 / 2018-04-25~2018-04-29,5天 / 2018-05-07~2018-05-11,5天 / 2018-05-14~2018-05-25,12天 / 2018-05-27~2018-05-31,5天 / 2018-06-12~2018-06-16,5天 "
+		},
+		"notCallDayCount": {
+		  "inspectionItems": "全天未使用通话功能天数",
+		  "result": "45天",
+		  "evidence": "在2018-01-01~2018-06-21时间段内，该号码有45天全天未使用通话功能，连续三天以上全天未使用通话和短信功能2次:2018-03-12~2018-03-15,4天 / 2018-06-12~2018-06-15,4天 "
+		},
+		"notCallAndSmsDayCount": {
+		  "inspectionItems": "全天未使用通话和短信功能天数",
+		  "result": "43天",
+		  "evidence": "在2018-01-01~2018-06-21时间段内，该号码有43天全天未使用通话和短信功能，连续三天以上全天未使用通话和短信功能2次:2018-03-12~2018-03-15,4天 / 2018-06-12~2018-06-15,4天 "
+		},
+		"numberUsedLong": {
+		  "inspectionItems": "号码使用时长",
+		  "result": "至少172天",
+		  "evidence": "使用记录至今至少172天"
+		},
+		"openTime": {
+		  "inspectionItems": "入网时间",
+		  "result": "2014-10-02 01:19:01",
+		  "evidence": "本号码于2014-10-02 01:19:01开始使用，至今已使用3年284天"
+		},
+		"numberActiveLong": {
+		  "inspectionItems": "号码活跃天数",
+		  "result": "至少129天",
+		  "evidence": "该号码至少有129天使用过短信或通话功能"
+		},
+		"allCallCountFrequency": {
+		  "inspectionItems": "通话频率",
+		  "result": "2.21",
+		  "evidence": "近半年内,该号码通话次数:380次,平均每天通话2.21次"
+		},
+		"nightCallCountFrequency": {
+		  "inspectionItems": "夜间通话频率(00:00~06:00)",
+		  "result": "0.14",
+		  "evidence": "近半年内,该号码平均每天夜间通话0.14次"
+		},
+		"nightCallCount": {
+		  "inspectionItems": "夜间通话次数(00:00 ~ 06:00)",
+		  "result": "24",
+		  "evidence": "呼入次数：17次, 呼入总时长：8.57分钟; 呼出次数：7次, 呼出总时长：2.05分钟"
+		},
+		"callSizeOver200Month": {
+		  "inspectionItems": "单月通话次数大于200次的月份",
+		  "result": "无",
+		  "evidence": "所有月份通话次数均小于200次"
+		},
+		"callSizeOver500Month": {
+		  "inspectionItems": "单月通话次数大于500次的月份",
+		  "result": "无",
+		  "evidence": "所有月份通话次数均小于500次"
+		}
+	  },
+	  "statisticSummary": {
+		"costMoney": {
+		  "items": "消费总额",
+		  "result": "995.78"
+		},
+		"callCostMoney": {
+		  "items": "通话消费总额",
+		  "result": "0.78"
+		},
+		"smsCostMoney": {
+		  "items": "短信消费总额",
+		  "result": "0.00"
+		},
+		"packageCostMoney": {
+		  "items": "套餐消费总额",
+		  "result": "995"
+		},
+		"avgMonthCostMoney": {
+		  "items": "平均每月消费总额",
+		  "result": "165.96"
+		},
+		"avgMonthCallCostMoney": {
+		  "items": "平均每月通话消费总额",
+		  "result": "0.13"
+		},
+		"avgMonthSmsCostMoney": {
+		  "items": "平均每月短信消费总额",
+		  "result": "0.00"
+		},
+		"avgMonthPackageCostMoney": {
+		  "items": "平均每月套餐消费总额",
+		  "result": "165.83"
+		},
+		"rechargeCount": {
+		  "items": "充值总次数",
+		  "result": "7"
+		},
+		"rechargeMoney": {
+		  "items": "充值总金额",
+		  "result": "1000.00"
+		},
+		"avgTimesRechargeMoney": {
+		  "items": "平均每次充值金额",
+		  "result": "142.86"
+		},
+		"avgMonthRechargeMoney": {
+		  "items": "平均每月充值总金额",
+		  "result": "166.67"
+		},
+		"singleMonthCostMoneyMax": {
+		  "items": "单月消费最大金额",
+		  "result": "199.78"
+		},
+		"singleMonthRechargeMoneyMax": {
+		  "items": "单月充值最大金额",
+		  "result": "400.00"
+		},
+		"singleTimesRechargeMoneyMax": {
+		  "items": "单次充值最大金额",
+		  "result": "200.00"
+		},
+		"lastRechargeTime": {
+		  "items": "最近一次充值时间",
+		  "result": "2018-05-02 17:10:05"
+		},
+		"allCallingCount": {
+		  "items": "主叫次数",
+		  "result": "138"
+		},
+		"allCalledCount": {
+		  "items": "被叫次数",
+		  "result": "242"
+		},
+		"otherCallCount": {
+		  "items": "其他类型通话次数",
+		  "result": "0"
+		},
+		"allCallingNumberCount": {
+		  "items": "主叫号码个数",
+		  "result": "56"
+		},
+		"allCalledNumberCount": {
+		  "items": "被叫号码个数",
+		  "result": "143"
+		},
+		"otherCallNumberCount": {
+		  "items": "其他类型通话号码个数",
+		  "result": "0"
+		},
+		"allCallingDuration": {
+		  "items": "主叫通话总时长",
+		  "result": "147.57"
+		},
+		"allCalledDuration": {
+		  "items": "被叫通话总时长",
+		  "result": "157.57"
+		},
+		"otherCallDuration": {
+		  "items": "其他类型通话总时长",
+		  "result": "0.00"
+		},
+		"singleCallingDurationMax": {
+		  "items": "单次拨出通话最长时长",
+		  "result": "16.37",
+		  "bak": "此次通话联系人为:13079025379"
+		},
+		"singleCalledDurationMax": {
+		  "items": "单次拨入通话最长时长",
+		  "result": "17.02",
+		  "bak": "此次通话联系人为:18112970906"
+		},
+		"frequentlyCallContact": {
+		  "items": "通话最频繁联系人",
+		  "result": "13901234567",
+		  "bak": "与该号码共通话63次"
+		},
+		"longestCallDurationContact": {
+		  "items": "通话时长最长联系人",
+		  "result": "18112970906",
+		  "bak": "与该号码通话总时长为:17.02分钟"
+		},
+		"callDurationLess1minSize": {
+		  "items": "通话时长在1分钟以内的通话记录个数",
+		  "result": "310"
+		},
+		"callDuration1to5minSize": {
+		  "items": "通话时长在1~5分钟以内的通话记录个数",
+		  "result": "61"
+		},
+		"callDuration5to10minSize": {
+		  "items": "通话时长在5~10分钟以内的通话记录个数",
+		  "result": "7"
+		},
+		"callDurationBigger10minSize": {
+		  "items": "通话时长在10分钟以上的通话记录个数",
+		  "result": "2"
+		},
+		"sendSmsCount": {
+		  "items": "发送短信条数",
+		  "result": "42"
+		},
+		"receiveSmsCount": {
+		  "items": "接收短信条数",
+		  "result": "0"
+		},
+		"sendSmsNumberCount": {
+		  "items": "发送短信号码数",
+		  "result": "7"
+		},
+		"receiveSmsNumberCount": {
+		  "items": "接收短信号码数",
+		  "result": "0"
+		},
+		"sendNumberAndCountRatio": {
+		  "items": "发送短信号码数与条数比",
+		  "result": "0.17"
+		},
+		"lastCallingTime": {
+		  "items": "最近一次拨出时间",
+		  "result": "2018-06-18 10:35:37"
+		},
+		"lastCalledTime": {
+		  "items": "最近一次拨入时间",
+		  "result": "2018-06-21 14:02:36"
+		},
+		"lastSendSmsTime": {
+		  "items": "最近一次发送短信时间",
+		  "result": "2018-04-27 22:37:47"
+		},
+		"lastReceiveSmsTime": {
+		  "items": "最近一次接收短信时间",
+		  "result": ""
+		},
+		"dunningCallCount": {
+		  "items": "与催收类号码通话次数",
+		  "result": "0"
+		},
+		"dunningCallDuration": {
+		  "items": "与催收类号码通话时长",
+		  "result": "0"
+		},
+		"notSureDunningCallCount": {
+		  "items": "与疑似催收类号码通话次数",
+		  "result": "0"
+		},
+		"notSureDunningCallDuration": {
+		  "items": "与疑似催收类号码通话次数",
+		  "result": "0"
+		},
+		"maxCallDurationService": {
+		  "items": "通话时长最长服务类别",
+		  "result": "热线电话"
+		},
+		"maxCallTimesService": {
+		  "items": "通话次数最多服务类别",
+		  "result": "热线电话"
+		},
+		"maxCallDurationServiceNumber": {
+		  "items": "通话时长最长服务号码",
+		  "result": "10010,热线电话"
+		},
+		"maxCallTimesServiceNumber": {
+		  "items": "通话次数最多服务号码",
+		  "result": "10010,热线电话"
+		},
+		"callerlocCallCount": {
+		  "items": "号码归属地通话次数",
+		  "result": "265"
+		},
+		"outCallerlocCallCount": {
+		  "items": "号码归属地以外通话次数",
+		  "result": "125"
+		},
+		"callerlocCallDuration": {
+		  "items": "号码归属地通话时长",
+		  "result": "183.58"
+		},
+		"outCallerlocCallDuration": {
+		  "items": "号码归属地以外通话时长",
+		  "result": "168.20"
+		},
+		"footMarkCitySize": {
+		  "items": "足迹城市覆盖大小",
+		  "result": "4"
+		},
+		"footMarkProvinceSize": {
+		  "items": "足迹省份覆盖大小",
+		  "result": "3"
+		},
+		"contactsCitySize": {
+		  "items": "朋友圈城市覆盖大小",
+		  "result": "27"
+		},
+		"contactsProvinceSize": {
+		  "items": "朋友圈省份覆盖大小",
+		  "result": "15"
+		}
+	  },
+	  "mnoMonthCostInfos": [
+		{
+		  "month": "2018-06",
+		  "totalCostMoney": "0.00",
+		  "callCostMoney": "0.00",
+		  "smsCostMoney": "0.00",
+		  "packageCostMoney": "0.00",
+		  "otherCostMoney": "0.00",
+		  "rechargeMoney": "0.00",
+		  "rechargeTimes": "0"
+		},
+		{
+		  "month": "2018-05",
+		  "totalCostMoney": "199.00",
+		  "callCostMoney": "0.00",
+		  "smsCostMoney": "0.00",
+		  "packageCostMoney": "199.00",
+		  "otherCostMoney": "0.00",
+		  "rechargeMoney": "200.00",
+		  "rechargeTimes": "1"
+		},
+		{
+		  "month": "2018-04",
+		  "totalCostMoney": "199.00",
+		  "callCostMoney": "0.00",
+		  "smsCostMoney": "0.00",
+		  "packageCostMoney": "199.00",
+		  "otherCostMoney": "0.00",
+		  "rechargeMoney": "200.00",
+		  "rechargeTimes": "1"
+		}
+	  ],
+	  "mnoMonthUsedInfos": [
+		{
+		  "mobile": "15912345600",
+		  "monType": "中国联通",
+		  "belongTo": "广东省深圳市",
+		  "month": "2018-06",
+		  "callCount": "27",
+		  "callTime": "825",
+		  "callNumberCount": "18",
+		  "originatingCallCount": "9",
+		  "originatingCallTime": "535",
+		  "originatingCallNumberCount": "4",
+		  "terminatingCallCount": "18",
+		  "terminatingCallTime": "290",
+		  "terminatingCallNumberCount": "16",
+		  "otherTypeCallCount": "0",
+		  "otherTypeCallTime": "0",
+		  "otherTypeCallNumberCount": "0",
+		  "networkTraffic": "572.34",
+		  "msgCount": "0",
+		  "avgCallTime": "30",
+		  "avgCallOutTime": "59",
+		  "avgCallInTime": "16",
+		  "avgOtherTypeCallTime": "0",
+		  "originatingCallNumberAndCountRatio": "0.44",
+		  "sendMsgCount": "0",
+		  "receiveMsgCount": "0"
+		}
+	  ],
+	  "mnoCommonlyConnectMobiles": [
+		{
+		  "mobile": "13901234567",
+		  "mobileTag": "未知",
+		  "mobileTagType": "未知",
+		  "commonTagType": "未知",
+		  "financeTag": "未知",
+		  "beginTime": "1514773238000",
+		  "endTime": "1528725189000",
+		  "monType": "中国联通",
+		  "belongTo": "广东省深圳市",
+		  "connectCount": "63",
+		  "connectTime": "2212",
+		  "originatingCallCount": "44",
+		  "terminatingCallCount": "19",
+		  "originatingTime": "1354",
+		  "terminatingTime": "858",
+		  "otherTypeCallCount": "0",
+		  "otherTypeCallTime": "0",
+		  "sendSmsCount": "33",
+		  "receiveSmsCount": "0"
+		},
+		{
+		  "mobile": "10010",
+		  "mobileTag": "中国联通",
+		  "mobileTagType": "未知",
+		  "commonTagType": "热线电话",
+		  "financeTag": "未知",
+		  "beginTime": "1516428872000",
+		  "endTime": "1517728804000",
+		  "monType": "中国联通",
+		  "belongTo": "未知",
+		  "connectCount": "4",
+		  "connectTime": "154",
+		  "originatingCallCount": "4",
+		  "terminatingCallCount": "0",
+		  "originatingTime": "154",
+		  "terminatingTime": "0",
+		  "otherTypeCallCount": "0",
+		  "otherTypeCallTime": "0",
+		  "sendSmsCount": "0",
+		  "receiveSmsCount": "0"
+		},
+		{
+		  "mobile": "18165855829",
+		  "mobileTag": "彭小煮",
+		  "mobileTagType": "快递送餐",
+		  "commonTagType": "餐饮美食",
+		  "financeTag": "未知",
+		  "beginTime": "1527342189000",
+		  "endTime": "1527342189000",
+		  "monType": "中国电信",
+		  "belongTo": "广东省茂名市",
+		  "connectCount": "1",
+		  "connectTime": "15",
+		  "originatingCallCount": "0",
+		  "terminatingCallCount": "1",
+		  "originatingTime": "0",
+		  "terminatingTime": "15",
+		  "otherTypeCallCount": "0",
+		  "otherTypeCallTime": "0",
+		  "sendSmsCount": "0",
+		  "receiveSmsCount": "0"
+		}
+	  ],
+	  "mnoOneMonthCommonlyConnectMobiles": [
+		{
+		  "mobile": "13901234567",
+		  "mobileTag": "未知",
+		  "mobileTagType": "未知",
+		  "commonTagType": "未知",
+		  "financeTag": "未知",
+		  "beginTime": "1527333488000",
+		  "endTime": "1528725189000",
+		  "monType": "中国联通",
+		  "belongTo": "广东省深圳市",
+		  "connectCount": "8",
+		  "connectTime": "243",
+		  "originatingCallCount": "6",
+		  "terminatingCallCount": "2",
+		  "originatingTime": "150",
+		  "terminatingTime": "93",
+		  "otherTypeCallCount": "0",
+		  "otherTypeCallTime": "0",
+		  "sendSmsCount": "0",
+		  "receiveSmsCount": "0"
+		}
+	  ],
+	  "mnoThreeMonthCommonlyConnectMobiles": [
+		{
+		  "mobile": "13901234567",
+		  "mobileTag": "未知",
+		  "mobileTagType": "未知",
+		  "commonTagType": "未知",
+		  "financeTag": "未知",
+		  "beginTime": "1522108207000",
+		  "endTime": "1528725189000",
+		  "monType": "中国联通",
+		  "belongTo": "广东省深圳市",
+		  "connectCount": "32",
+		  "connectTime": "983",
+		  "originatingCallCount": "26",
+		  "terminatingCallCount": "6",
+		  "originatingTime": "757",
+		  "terminatingTime": "226",
+		  "otherTypeCallCount": "0",
+		  "otherTypeCallTime": "0",
+		  "sendSmsCount": "4",
+		  "receiveSmsCount": "0"
+		}
+	  ],
+	  "mno7daysCommonlyConnectMobiles": [
+		{
+		  "mobile": "18981234123",
+		  "mobileTag": "未知",
+		  "mobileTagType": "未知",
+		  "commonTagType": "未知",
+		  "financeTag": "未知",
+		  "beginTime": "1529202000000",
+		  "endTime": "1529209904000",
+		  "monType": "中国移动",
+		  "belongTo": "广东省深圳市",
+		  "connectCount": "3",
+		  "connectTime": "46",
+		  "originatingCallCount": "2",
+		  "terminatingCallCount": "1",
+		  "originatingTime": "19",
+		  "terminatingTime": "27",
+		  "otherTypeCallCount": "0",
+		  "otherTypeCallTime": "0",
+		  "sendSmsCount": "0",
+		  "receiveSmsCount": "0"
+		}
+	  ],
+	  "mno3daysCommonlyConnectMobiles": [
+		{
+		  "mobile": "07386618330",
+		  "mobileTag": "未知",
+		  "mobileTagType": "未知",
+		  "commonTagType": "未知",
+		  "financeTag": "未知",
+		  "beginTime": "1529560956000",
+		  "endTime": "1529560956000",
+		  "monType": "未知",
+		  "belongTo": "湖南省娄底市",
+		  "connectCount": "1",
+		  "connectTime": "24",
+		  "originatingCallCount": "0",
+		  "terminatingCallCount": "1",
+		  "originatingTime": "0",
+		  "terminatingTime": "24",
+		  "otherTypeCallCount": "0",
+		  "otherTypeCallTime": "0",
+		  "sendSmsCount": "0",
+		  "receiveSmsCount": "0"
+		}
+	  ],
+	  "mnoConnectMobilesExt": [
+		{
+		  "mobile": "13901234567",
+		  "mobileTag": "未知",
+		  "mobileTagType": "未知",
+		  "commonTagType": "未知",
+		  "financeTag": "未知",
+		  "monType": "中国联通",
+		  "belongTo": "广东省深圳市",
+		  "connectCount": "63",
+		  "connectTime": "2212",
+		  "originatingCallCount": "44",
+		  "terminatingCallCount": "19",
+		  "originatingTime": "1354",
+		  "terminatingTime": "858",
+		  "last7daysConnectCount": "0",
+		  "last1monthConnectCount": "8",
+		  "last3monthConnectCount": "32",
+		  "beyond3monthConnectCount": "31",
+		  "earlyMorningConnectCount": "6",
+		  "morningConnectCount": "7",
+		  "noonConnectCount": "6",
+		  "afternoonConnectCount": "13",
+		  "nightConnectCount": "31",
+		  "isConnectAllDay": "false",
+		  "weekDayConnectCount": "44",
+		  "weekendConnectCount": "19",
+		  "holidayConnectCount": "24"
+		},
+		{
+		  "mobile": "10010",
+		  "mobileTag": "中国联通",
+		  "mobileTagType": "未知",
+		  "commonTagType": "热线电话",
+		  "financeTag": "未知",
+		  "monType": "中国联通",
+		  "belongTo": "未知",
+		  "connectCount": "4",
+		  "connectTime": "154",
+		  "originatingCallCount": "4",
+		  "terminatingCallCount": "0",
+		  "originatingTime": "154",
+		  "terminatingTime": "0",
+		  "last7daysConnectCount": "0",
+		  "last1monthConnectCount": "0",
+		  "last3monthConnectCount": "0",
+		  "beyond3monthConnectCount": "4",
+		  "earlyMorningConnectCount": "0",
+		  "morningConnectCount": "0",
+		  "noonConnectCount": "0",
+		  "afternoonConnectCount": "4",
+		  "nightConnectCount": "0",
+		  "isConnectAllDay": "false",
+		  "weekDayConnectCount": "0",
+		  "weekendConnectCount": "4",
+		  "holidayConnectCount": "4"
+		},
+		{
+		  "mobile": "18165855829",
+		  "mobileTag": "彭小煮",
+		  "mobileTagType": "快递送餐",
+		  "commonTagType": "餐饮美食",
+		  "financeTag": "未知",
+		  "monType": "中国电信",
+		  "belongTo": "广东省茂名市",
+		  "connectCount": "2",
+		  "connectTime": "48",
+		  "originatingCallCount": "0",
+		  "terminatingCallCount": "2",
+		  "originatingTime": "0",
+		  "terminatingTime": "48",
+		  "last7daysConnectCount": "0",
+		  "last1monthConnectCount": "1",
+		  "last3monthConnectCount": "2",
+		  "beyond3monthConnectCount": "0",
+		  "earlyMorningConnectCount": "0",
+		  "morningConnectCount": "0",
+		  "noonConnectCount": "0",
+		  "afternoonConnectCount": "0",
+		  "nightConnectCount": "2",
+		  "isConnectAllDay": "false",
+		  "weekDayConnectCount": "1",
+		  "weekendConnectCount": "1",
+		  "holidayConnectCount": "1"
+		}
+	  ],
+	  "mnoCommonlyConnectAreas": [
+		{
+		  "area": "广东省深圳市",
+		  "numberCount": "265",
+		  "callCount": "117",
+		  "callTime": "11061",
+		  "originatingCallCount": "89",
+		  "originatingCallTime": "5631",
+		  "terminatingCallCount": "176",
+		  "terminatingCallTime": "5430",
+		  "callInCountPercentage": "72.73%",
+		  "callInTimePercentage": "57.44%",
+		  "callOutCountPercentage": "64.49%",
+		  "callOutTimePercentage": "63.60%",
+		  "avgCallTime": "41",
+		  "avgCallInTime": "30",
+		  "avgCallOutTime": "63"
+		},
+		{
+		  "area": "四川省达县市",
+		  "numberCount": "101",
+		  "callCount": "24",
+		  "callTime": "6354",
+		  "originatingCallCount": "37",
+		  "originatingCallTime": "2378",
+		  "terminatingCallCount": "64",
+		  "terminatingCallTime": "3976",
+		  "callInCountPercentage": "26.45%",
+		  "callInTimePercentage": "42.06%",
+		  "callOutCountPercentage": "26.81%",
+		  "callOutTimePercentage": "26.86%",
+		  "avgCallTime": "62",
+		  "avgCallInTime": "62",
+		  "avgCallOutTime": "64"
+		}
+	  ],
+	  "mnoContactsCommonlyConnectAreas": [
+		{
+		  "area": "广东省深圳市",
+		  "numberCount": "226",
+		  "callCount": "62",
+		  "callTime": "6450",
+		  "originatingCallCount": "142",
+		  "originatingCallTime": "4036",
+		  "terminatingCallCount": "84",
+		  "terminatingCallTime": "2414",
+		  "callInCountPercentage": "60.87%",
+		  "callInTimePercentage": "27.26%",
+		  "callOutCountPercentage": "58.68%",
+		  "callOutTimePercentage": "42.69%",
+		  "avgCallTime": "28",
+		  "avgCallInTime": "28",
+		  "avgCallOutTime": "28"
+		}
+	  ],
+	  "mnoPeriodUsedInfos": [
+		{
+		  "mobile": "17688981823",
+		  "periodType": "00:00 ~ 05:59",
+		  "mnoType": "中国联通",
+		  "belongTo": "四川省成都市",
+		  "originatingCallCount": "7",
+		  "originatingCallTime": "123",
+		  "terminatingCallCount": "17",
+		  "terminatingCallTime": "514",
+		  "msgCount": "0",
+		  "numberCount": "12"
+		}
+	  ],
+	  "mnoPeriodUsedInfosNew": [
+		{
+		  "mobile": "17688981823",
+		  "periodType": "06:00 ~ 08:29",
+		  "mnoType": "中国联通",
+		  "belongTo": "四川省成都市",
+		  "originatingCallCount": "1",
+		  "originatingCallTime": "2",
+		  "terminatingCallCount": "7",
+		  "terminatingCallTime": "199",
+		  "msgCount": "2",
+		  "numberCount": "5"
+		},
+		{
+		  "mobile": "17688981823",
+		  "periodType": "08:30 ~ 11:59",
+		  "mnoType": "中国联通",
+		  "belongTo": "四川省成都市",
+		  "originatingCallCount": "32",
+		  "originatingCallTime": "1791",
+		  "terminatingCallCount": "55",
+		  "terminatingCallTime": "1995",
+		  "msgCount": "17",
+		  "numberCount": "36"
+		}
+	  ],
+	  "userInfoValidation": {
+		"homePhoneCheck":{
+		  "mobile": "18912341234",
+		  "belongTo": "湖北省黄冈市",
+		  "latestConnectTime": "2017-03-21 12:31:18",
+		  "firstConnectTime": "2016-10-02 18:11:42",
+		  "threeDaysConnectOrder": "4",
+		  "threeDaysConnectCount": "3",
+		  "threeDaysConnectDuration": "6126",
+		  "sevenDaysConnectOrder": "1",
+		  "sevenDaysConnectCount": "8",
+		  "sevenDaysConnectDuration": "9218",
+		  "thirtyDaysConnectOrder": "1",
+		  "thirtyDaysConnectCount": "17",
+		  "thirtyDaysConnectDuration": "12646",
+		  "connectOrder": "1",
+		  "connectCount": "90",
+		  "connectDuration": "1800",
+		  "callInCount":"40",
+		  "callInTime":"800",
+		  "callOutCount":"50",
+		  "callOutTime":"1000",
+		  "smsCount":"23"
+		}
+	  },
+	  "mnoCommonlyUsedServices": [
+		{
+		  "serviceName": "中国联通",
+		  "seviceType": "运营商",
+		  "connectCount": "4",
+		  "serviceMonthInfos": [
+			{
+			  "connectCount": "0",
+			  "month": "2018-06"
+			},
+			{
+			  "connectCount": "0",
+			  "month": "2018-05"
+			},
+			{
+			  "connectCount": "0",
+			  "month": "2018-04"
+			},
+			{
+			  "connectCount": "0",
+			  "month": "2018-03"
+			},
+			{
+			  "connectCount": "2",
+			  "month": "2018-02"
+			},
+			{
+			  "connectCount": "2",
+			  "month": "2018-01"
+			}
+		  ]
+		}
+	  ],
+	  "goOutDatas": [
+		{
+		  "departure": "四川省达县市",
+		  "destination": "四川省成都市",
+		  "beginTime": "2018-02-23",
+		  "arriveTime": "2018-02-23",
+		  "endTime": "2018-02-23",
+		  "period": "工作日（1天）, 节假日（0天）"
+		},
+		{
+		  "departure": "四川省成都市",
+		  "destination": "广东省深圳市",
+		  "beginTime": "2018-02-23",
+		  "arriveTime": "2018-02-24",
+		  "endTime": "-",
+		  "period": "至今"
+		}
+	  ],
+	  "emergencyContacts": [
+		{
+		  "name": "王女士",
+		  "relation": "其他",
+		  "mobile": "13888451215",
+		  "belongTo": "云南省昆明市",
+		  "threeDaysConnectCount": "0",
+		  "threeDaysConnectDuration": "0",
+		  "threeDaysConnectOrder": "0",
+		  "sevenDaysConnectCount": "0",
+		  "sevenDaysConnectDuration": "0",
+		  "sevenDaysConnectOrder": "0",
+		  "thirtyDaysConnectCount": "0",
+		  "thirtyDaysConnectDuration": "0",
+		  "thirtyDaysConnectOrder": "0",
+		  "connectCount": "0",
+		  "connectDuration": "0",
+		  "connectOrder": "0",
+		  "smsCount": "0",
+		  "callInCount": "0",
+		  "callInTime": "0",
+		  "callOutCount": "0",
+		  "callOutTime": "0"
+		}
+	  ],
+	  "mnoCuiShouInfo": {
+		"notSureDunnings": [
+		  {
+			"periodType": "近1周",
+			"connectMobileSize": "0",
+			"connectCount": "0",
+			"callOutCount": "0",
+			"callInCount": "0",
+			"callTime": "0",
+			"callAvgTime": "0.00",
+			"callOutTime": "0",
+			"callInTime": "0",
+			"callTimeBelow15": "0",
+			"callTimeBetween15and30": "0",
+			"callTimeAbove60": "0",
+			"beginTime": "无",
+			"endTime": "无"
+		  }
+		],
+		"dunnings": [
+		  {
+			"periodType": "近1周",
+			"connectMobileSize": "0",
+			"connectCount": "0",
+			"callOutCount": "0",
+			"callInCount": "0",
+			"callTime": "0",
+			"callAvgTime": "0.00",
+			"callOutTime": "0",
+			"callInTime": "0",
+			"callTimeBelow15": "0",
+			"callTimeBetween15and30": "0",
+			"callTimeAbove60": "0",
+			"beginTime": "无",
+			"endTime": "无"
+		  }
+		]
+	  },
+	  "financeTagConnectInfo": [
+		{
+		  "tag": "银行",
+		  "callNumberCount": "0",
+		  "callTime": "0",
+		  "callCount": "0",
+		  "callInTime": "0",
+		  "callOutTime": "0",
+		  "callInCount": "0",
+		  "callOutCount": "0"
+		}
+	  ],
+	  "commonTagConnectInfo": [
+		{
+		  "tag": "热线电话",
+		  "callNumberCount": "1",
+		  "callTime": "2.57",
+		  "callCount": "4",
+		  "callInTime": "0.00",
+		  "callOutTime": "2.57",
+		  "callInCount": "0",
+		  "callOutCount": "4"
+		}
+	]
+}	

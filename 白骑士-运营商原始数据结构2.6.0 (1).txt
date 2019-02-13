@@ -1,0 +1,279 @@
+==================================无注释==================================
+
+{
+    "resultCode": "CCOM1000",
+    "resultDesc": "成功",
+    "data": {
+        "mnoDetail": {
+            "storeTime": "1468252800000",
+            "mnoPersonalInfo": {
+                "mobile": "135123456789",
+                "isRealCheck": true,
+                "boundCertNo": "43**************15",
+                "boundName": "刘XX",
+                "openTime": "1468252800000",
+                "monType": "联通",
+                "belongTo": "广东省深圳市",
+                "relationMobiles": [
+                    "1387123456",
+                    "139123456"
+                ],
+                "status": "正常",
+                "blanceMoney": "100.0",
+                "availableFee": "100.0",
+                "raltimeFee": "10.0",
+                "custLevel": "三星用户"
+            },
+            "mnoCallRecords": [
+                {
+                    "beginTime": "1475920192000",
+                    "callDuration": "4",
+                    "callType": "主叫",
+                    "businessType": "语音通话",
+                    "otherNum": "07932633297",
+                    "homeArea": "深圳",
+					"stdHomeArea": "广东省深圳市",
+                    "landType": "国内漫游",
+                    "totalFee": "0.35"
+                }
+            ],
+            "mnoSmsRecords": [
+                {
+                    "beginTime": "1476340670000",
+                    "businessType": "短信",
+                    "smsType": "发送",
+                    "amount": "0.10",
+                    "otherNum": "106571203855780"
+                }
+            ],
+            "mnoBillRecords": [
+                {
+                    "month": "1478140063000",
+                    "allFee": "120.00",
+                    "deductionFee": "100.00",
+                    "dueFee": "0.00",
+                    "mnoBillRecordDetails": [
+                        {
+                            "integrateItem": "月固定费",
+                            "fee": "8.00"
+                        },
+                        {
+                            "integrateItem": "基本套餐费",
+                            "fee": ""
+                        }
+                    ]
+                }
+            ],
+            "mnoPaymentRecords": [
+                {
+                    "paymentChannel": "一卡充空中充值",
+                    "paymentFee": "100.0",
+                    "paymentDate": "1473955200000"
+                }
+            ],
+            "mnoNetPlayRecords": [
+                {
+                    "netType": "3gnet",
+                    "bizName": "视频",
+                    "userAgent": "MT6795_TD/V1 Linux/3.10.72-user-00005-g0ac315d-cI570f58b Android/5.1 Release/04.24.2015 Browser/AppleWebKit537.36 Chrome/39.0.0.0 Mobile Safari/537.36 System/Android 5.1;",
+                    "domainName": "",
+                    "featInfo": "http://157.122.101.11",
+                    "clientIp": "10.160.*.*",
+                    "accessIp": "157.122.101.11",
+                    "durationTime": "22",
+                    "beginTime": "1483274166000",
+                    "totalTraffic": "716680"
+                }
+            ],
+            "mnoForwardRecords": [
+                {
+                    "netType": "2G/3G/4G",
+                    "forwardType": "CMNET",
+                    "beginTime": "1512057177000",
+                    "longHour": "984",
+                    "totalBytes": "14580",
+                    "homeArea": "广东",
+                    "totalFee": "0.0",
+                    "meal": "10-20-30自动升档包"
+                }
+            ],
+			"mnoCreditScoreInfo": {
+				"totalScore" : "600",
+				"identityScore" : "568",
+				"behaviorPrefScore" : "536",
+				"relationshipScore" : "542",
+				"stabilityScore" : "568",
+				"performanceScore" : "576"
+			}
+        }
+    }
+}
+
+==================================有注释==================================
+
+{
+    "resultCode": "CCOM1000",
+    "resultDesc": "成功",
+    "data": {
+        "mnoDetail": {                     		//运营商数据
+			"storeTime":"1468252800000",             //原始数据存储时间（时间戳）
+			"mnoPersonalInfo": {                 	//个人信息
+				"mobile": "135123456789",              		//手机号
+				"isRealCheck":true,                    		//是否实名制
+				"boundCertNo": "43**************15",        //实名认证身份证
+				"boundName": "刘XX",                        //实名认证姓名
+				"openTime": "1468252800000",               	//开通时间
+				"monType": "联通",                   		//运营商类型
+				"belongTo": "广东省深圳市",               	//归属地
+				"relationMobiles": ["1387123456","139123456"],   //当前号码关联手机号
+				"status": "正常",                   			//手机当前手机状态
+				"blanceMoney":"100.0",   // 余额  
+                "availableFee":"100.0",  // 当月可用余额 
+                "raltimeFee":"10.0",     // 当月实时话费
+                "custLevel":"三星用户"   // 用户级别
+			},
+			"mnoCallRecords": [                   	//通话记录
+				{
+					"beginTime": "1475920192000",           //通话开始时间（主叫或被叫）     
+					"callDuration": "4",                	//通话时长（单位秒）
+					"callType": "主叫",                		//呼叫类型（主叫、被叫）
+					"businessType": "语音通话",             //业务类型（语音通话）
+					"otherNum": "07932633297",              //通话对方号码    
+					"homeArea": "深圳",                 	//当前号码通话地点
+					"stdHomeArea": "广东省深圳市",          //标准化用户通话地点
+					"landType": "国内漫游",               	//长途类型（本地、省内长途、国内长途）
+					"totalFee": "0.35"                 	    //通话产生费用
+				},
+				{
+					"beginTime": "15012341234",               
+					"callDuration": "4",                    
+					"businessType": "语音通话",                     
+					"callType": "主叫",                     
+					"otherNum": "13557536792",                  
+					"homeArea": "深圳",                     
+					"landType": "国内漫游",                   
+					"totalFee": "0.35"              
+				}
+			],		
+			"mnoSmsRecords": [                    	//短信记录
+				{
+					"beginTime": "1476340670000",   		//短信发送时间
+					"businessType": "短信",               	//短信业务类型
+					"smsType": "发送",                		//短信接收类型（接收、发送）
+					"amount": "0.10",                 		//短信费用
+					"otherNum": "106571203855780"           //短信对方号码      
+				},
+				{
+					"beginTime": "1476340670000",               
+					"businessType": "彩信",                     
+					"smsType": "发送",                     
+					"amount": "0.10",                     
+					"otherNum": "106571203855780"               
+				}
+			],
+			"mnoBillRecords": [                		//账单记录
+				{
+					"month": "1478140063000",       		//月份
+					"allFee": "120.00",             		//总话费
+					"deductionFee": "100.00",               //抵扣话费  
+					"dueFee": "0.00",               		//缴纳花费 
+					"mnoBillRecordDetails": [               //账单明细      
+						{
+							"integrateItem": "月固定费",    		//明细类型
+							"fee": "8.00"                   		//费用
+						},
+						{
+							"integrateItem": "基本套餐费",              
+							"fee": ""                   
+						}
+					]
+				},
+				{
+					"month": "1478140063000",                      
+					"allFee": "130.00",                      
+					"deductionFee": "100.00",                    
+					"dueFee": "0.00",                    
+					"mnoBillRecordDetails": [                
+						{
+							"integrateItem": "月固定套餐",              
+							"fee": "10.00"                    
+						},
+						{
+							"integrateItem": "",               
+							"fee": ""                     
+						}
+					]
+				}
+			],
+			"mnoPaymentRecords": [                  //缴费记录
+				{
+					"paymentChannel": "一卡充空中充值",		//缴费渠道（网上营业厅等）
+					"paymentFee": "100.0",                	//充值金额
+					"paymentDate": "1473955200000"           //缴费时间
+				},
+				{
+					"paymentChannel": "",                  
+					"paymentFee": "",                      
+					"paymentDate": ""                      
+				}
+			],
+			"mnoNetPlayRecords": [                  //上网记录
+				{
+					"netType": "3gnet",             		//网络类型
+					"bizName": "视频",                      //上网方式
+					"userAgent": "MT6795_TD/V1 Linux/3.10.72-user-00005-g0ac315d-cI570f58b Android/5.1 Release/04.24.2015 Browser/AppleWebKit537.36 Chrome/39.0.0.0 Mobile Safari/537.36 System/Android 5.1;",    								//用户代理
+					"domainName": "",                       //域名
+					"featInfo": "http://157.122.101.11",    //访问网址
+					"clientIp": "10.160.*.*",               //客户端IP
+					"accessIp": "157.122.101.11",           //访问IP
+					"durationTime": "22",                   //持续时间(单位秒)
+					"beginTime": "1483274166000",           //起始时间
+					"totalTraffic": "716680"                //总流量(单位B)
+				},
+				{
+					"netType": "3gnet",
+					"bizName": "其他",
+					"userAgent": "Mozilla/5.0 (Linux; U; Android 5.1; zh-cn;MX5 Build/JOP40D; CyanogenMod-10.1) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+					"domainName": "ZAKER",
+					"featInfo": "http://zkres.myzaker.com",
+					"clientIp": "10.160.*.*",
+					"accessIp": "120.31.7.4",
+					"durationTime": "9",
+					"beginTime": "1483274027000",
+					"totalTraffic": "122079"
+				}
+			],
+			"mnoForwardRecords": [                  //流量使用记录
+				{
+					"netType": "2G/3G/4G",          		//网络类型
+					"forwardType": "CMNET",                 //流量类型
+					"beginTime": "1512057177000",           //通信起始时间
+					"longHour": "984",                      //持续时间（单位秒）
+					"totalBytes": "14580",                  //总流量（单位KB）
+					"homeArea": "广东",                     //通讯地点
+					"totalFee": "0.0",                      //总费用
+					"meal": "10-20-30自动升档包"            //使用套餐
+				},
+				{
+					"netType": "2G/3G/4G",
+					"forwardType": "CMNET",
+					"beginTime": "1507184263000",
+					"longHour": "20",
+					"totalBytes": "185",
+					"homeArea": "广东",
+					"totalFee": "0.0",
+					"meal": "4G飞享套餐58（2016）-国内流量包"
+				}
+			],
+			"mnoCreditScoreInfo": {                  //信用分记录
+				"totalScore" : "600",                      //信用分
+				"identityScore" : "568",                   //身份特征
+				"behaviorPrefScore" : "536",               //行为偏好
+				"relationshipScore" : "542",               //人脉关系
+				"stabilityScore" : "568",                  //信用历史
+				"performanceScore" : "576"                 //消费能力（移动）/履约能力（联通）
+			}
+		}
+	}
+}
+

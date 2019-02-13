@@ -1,0 +1,161 @@
+﻿==================================无注释==================================
+
+{
+    "data":{
+        "storeTime":1489652473507,
+        "type":"ALIPAY",
+        "personalInfo":{
+            "accountBalanceAmount":0,
+            "yearBalanceAmount":177461.84,
+            "yebBalanceAmount":145.08,
+            "isRealCheck":true,
+            "realCheckName":"张三",
+            "realCheckCertNo":"4****************5",
+            "bindMobile":"135****6792",
+            "bindTbUserName":"q570125292",
+            "registerTime":1301068800000,
+            "lastPcLoginTime":1483604255000,
+	    "zcb":0.0,
+	    "cjb":19.60
+        },
+        "tradeRecords":[
+            {
+                "time":1479681360000,
+                "type":"余额宝-2016.11.20-收益发放",
+                "tradeParty":"天弘基金管理有限公司",
+                "serialNumber":"20161121175316321671",
+                "amount":0.01,
+                "status":"交易成功"
+            }
+        ],
+        "moonlightInfo":{
+            "availableAmount":5499.79,
+            "totalAmount":7200,
+            "balanceAmount":592.19,
+            "settlementDate":10,
+            "repaymentMethod":"已开通自动还款",
+            "records":[
+                {
+                    "time":1479014820000,
+                    "name":"火车票",
+                    "amount":74.5,
+                    "status":"已确认收货"
+                }
+            ]
+        },
+        "bankCards":[
+            {
+                "userName":"张三",
+                "cardType":"储蓄卡",
+                "providerName":"招商银行",
+                "providerUserName":"8730",
+                "isEncryptCardNo":true
+            }
+        ],
+        "creditCards":[
+            {
+                "userName":"张三",
+                "prividerName":"招商银行",
+                "providerUserName":"8730",
+                "repaymentHistory":[
+                    {
+                        "month":1479014820000,
+                        "repaymentTotalAmount":1000
+                    }
+                ]
+            }
+        ],
+        "addresses":[
+            {
+                "name":"张三",
+                "mobile":"135****6792",
+                "province":"广东省",
+                "city":"深圳市",
+                "area":"南山区",
+                "street":"科技园",
+                "code":"518052"
+            }
+        ]
+    }
+}
+
+==================================带注释==================================
+
+{"data": {
+	"storeTime": 1489652473507,					//存储原始数据时间（时间戳）
+	"type": "ALIPAY",  
+	"personalInfo": {						//个人基本信息
+		"accountBalanceAmount": 0.0,				// 账户余额
+		"yearBalanceAmount": 177461.84,				// 年剩余交易额
+		"yebBalanceAmount": 145.08,				// 余额宝余额
+		"isRealCheck": true,					// 是否实名认证
+		"realCheckName": "张三",				// 实名姓名
+		"realCheckCertNo": "4****************5",		// 实名身份证
+		"bindMobile": "135****6792",				// 绑定的手机号
+		"bindTbUserName": "q570125292",				// 绑定的淘宝号
+		"registerTime": 1301068800000,				// 注册时间
+		"lastPcLoginTime": 1483604255000,			// 上次PC端登陆时间
+                "zcb":0.0,						// 招财宝金额
+	        "cjb":19.60						// 存金宝金额
+	},
+	"tradeRecords": [							//交易记录
+		{
+			"time": 1479681360000,					// 交易时间
+			"type": "余额宝-2016.11.20-收益发放",			// 交易类型
+			"tradeParty": "天弘基金管理有限公司",			// 交易方
+			"serialNumber": "20161121175316321671",			// 交易流水号
+			"amount": 0.01,						// 金额
+			"status": "交易成功"					// 交易状态
+		}
+	],
+	"moonlightInfo": {							//花呗信息
+		"availableAmount": 5499.79,					// 可用额度
+		"totalAmount": 7200.0,						// 总额度
+		"balanceAmount": 592.19,					// 本期需要还金额
+		"settlementDate": 10,						// 本期还款日
+		"repaymentMethod": "已开通自动还款",				// 还款计划
+		"records": [							//花呗交易记录
+			{
+				"time": 1479014820000,					// 时间
+				"name": "火车票",					// 名称
+				"amount": 74.5,						// 金额
+				"status": "已确认收货"					// 状态
+			}
+		]
+	},
+	"bankCards": [								//绑定银行卡信息
+		{
+			"userName": "张三",					// 姓名	
+			"cardType": "储蓄卡",					// 卡类别
+			"providerName": "招商银行",				// 银行名
+			"providerUserName": "8730",				// 卡尾号
+			"isEncryptCardNo": true					// 是否开通快捷支付 是
+		}
+	],
+	"creditCards":[								//信用卡还款信息
+		{
+			"userName":"张三",					//姓名
+			"prividerName": "招商银行",				//银行名
+			"providerUserName":"8730",				//卡尾号
+			"repaymentHistory":[					//还款记录
+				{
+					"month":1479014820000,			//月份	
+					"repaymentTotalAmount":1000,		//还款金额
+				}
+						
+			]
+		}
+			
+	],
+	"addresses": [								//地址信息
+		{
+			"name": "张三",						// 姓名	
+			"mobile": "135****6792",				// 手机号
+			"province": "广东省",					// 省
+			"city": "深圳市",					// 市
+			"area": "南山区",					// 地区
+			"street": "科技园",					// 街道
+			"code": "518052"					// 邮编
+		}
+	]
+}
